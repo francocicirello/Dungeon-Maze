@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	font-family:arial, sans-serif;
+	color:white;
+}
+
+body{
+	font-size:28px;
+	color: grey;
+}
+
+label{
+	font-size:15px;
+}
+
+p{
+	font-size: 15px;
+}
+
+#formulario{
+border: 3px solid green;
+border-radius:25px;
+width:950px;
+height:610px;
+padding:10px;
+}
+
+#personajes{
+	width: 720px;
+	height:500px;
+	float:left;
+}
+.heroimage{
+	height:500px;
+	width:300px;
+}
+.texto{
+background-color:black;
+color:red;
+font-weight:bold;
+}
+.boton{
+	background-color:red;
+	color:black;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;
+	margin-top:15px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>:: Dungeon Maze :: Elegir personaje</title>
+	<link href="formulario.css" type="text/css" rel="stylesheet" media="screen" />
+	<script src="jquery.js"></script>
+		<script src="formulario.js"></script>
+</head>
+<body>
+	<center>
+	<h1>Elige tu personaje</h1>
+	<div id="formulario">
+		<form method="post" action="evaluador.php" name="form_evalua">
+			<label for="txt_nombre">Alias:</label> <input type="text" name="txt_nombre" id="txt_nombre" class="texto"/><br/>			
+			
+			<table>
+				<tr><td><a href="index.html"><img src="guerrero.jpg" title="guerrero" class="heroimage"/></a></td><td><a href="index.html"><img src="valkiria.jpg" title="valkiria" class="heroimage"/></a></td><td><a href="index.html"><img src="clerigo.jpg" title="clérigo" class="heroimage"/></a></td></tr>
+				<tr><td>Ataque: 10 Defensa: 14 Daño: 15 Vida: 100</td><td>Ataque: 10 Defensa: 12 Daño: 20 Vida: 50</td><td>Ataque: 5 Defensa: 16 Daño: 5 Vida: 150</td></tr>
+			</table>
+			
+		</form>
+	</div>
+	</center>
+</body>
+</html>
